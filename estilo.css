@@ -1,0 +1,28 @@
+body{
+    font-family: roboto condensed;
+}
+.menutop{
+    display: flex;
+    justify-content: space-between;
+}
+
+#bloqueusuario ul li { 
+    display: inline;
+    list-style: none;
+}
+#bloqueusuario ul li a {
+    color: black;
+}
+a {
+    text-decoration: none;
+}
+nav div {
+    text-align: center;
+}
+nav div ul li {
+    display: inline;
+    list-style: none;
+}
+nav div ul li a {
+color: black;
+}
