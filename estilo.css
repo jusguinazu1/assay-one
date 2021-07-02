@@ -2,14 +2,14 @@ body{
     font-family: roboto condensed;
 }
 .menutop{
-
     display: flex;
     justify-content: space-between;
-    margin-right: 20px;
-    margin-top: auto;
+    margin-left: 30px;
+    margin-right: 30px; 
+  
 }
 .menutop #contenedor aside p {
-    font-size: 10px;    
+    font-size: 10px;  
 }
 
 #bloqueusuario ul li { 
@@ -42,7 +42,7 @@ header #banner img {
     margin: auto;
     display: block;
     height: auto;
-    width: 100px;
+    width: 200px;
 }
 #coleccion a img{
     margin: auto;
@@ -52,6 +52,8 @@ header #banner img {
 #eslogan p {
     color: white;
     background-color: black;
+    padding-left: 30px;
+
 }
 #lookbook-accessories {
    display: flex;
@@ -88,7 +90,6 @@ header #banner img {
 }
 footer {
     margin: auto;
-
     text-align: center;
     display: flex;
     justify-content: space-around;
@@ -116,4 +117,7 @@ footer #social li a #ig {
 footer #social li a #tw {
     width: 10%;
     border-radius: 2rem;
+}
+#contenedor {
+    margin-left: 30px;
 }
