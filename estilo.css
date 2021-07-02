@@ -2,8 +2,14 @@ body{
     font-family: roboto condensed;
 }
 .menutop{
+
     display: flex;
     justify-content: space-between;
+    margin-right: 20px;
+    margin-top: auto;
+}
+.menutop #contenedor aside p {
+    font-size: 10px;    
 }
 
 #bloqueusuario ul li { 
@@ -11,6 +17,7 @@ body{
     list-style: none;
 }
 #bloqueusuario ul li a {
+    padding: 10px;
     color: black;
 }
 a {
@@ -22,7 +29,91 @@ nav div {
 nav div ul li {
     display: inline;
     list-style: none;
+    padding: 20px
 }
-nav div ul li a {
-color: black;
+#navegador div {
+    background-color: black;
+}
+#navegador div ul li a {
+color: white;
+
+}
+header #banner img {
+    margin: auto;
+    display: block;
+    height: auto;
+    width: 100px;
+}
+#coleccion a img{
+    margin: auto;
+    display: block;
+}
+
+#eslogan p {
+    color: white;
+    background-color: black;
+}
+#lookbook-accessories {
+   display: flex;
+   justify-content: space-around
+}
+
+#videoconcept video {
+    width: 90%;
+   margin: auto;
+   
+}
+#rock img{
+    background-color: lightgray;
+    margin: auto;
+    display: block;
+}
+#logossocialmedia {
+    display: inline-block;
+    margin-left: 63px;
+    padding: 20px 30px 0px 60px;
+
+}
+#logossocialmedia #logo1 img{
+    width: 30%;
+    border-radius: 3rem;
+}
+#logossocialmedia #logo2 img {
+    width: 30%;
+    border-radius: 3rem;
+}
+#logossocialmedia #logo3 img{
+    width: 30%;
+    border-radius: 3rem;
+}
+footer {
+    margin: auto;
+
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: xx-small;
+}
+
+footer #customer li {
+    display: inline;
+    list-style: none;
+}
+footer #social li{
+    display: inline;
+    padding: 10px;
+    list-style: none;
+}
+footer #social li a #fc {
+    width: 10%;
+    border-radius: 2rem;
+}
+footer #social li a #ig {
+    width: 10%;
+    border-radius: 2rem;
+}
+footer #social li a #tw {
+    width: 10%;
+    border-radius: 2rem;
 }
