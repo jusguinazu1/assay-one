@@ -14,6 +14,7 @@
         </style>
         <meta charset="utf-8">
         <link rel="icon" href="../images.ico">
+        <link rel="stylesheet" href="normalize.css">
         <link rel="stylesheet" type="text/css" href="estilo.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,107 +24,114 @@
     
     <body>
         <header>
-            <div id="flotante">
-                <div class="menutop">
+            <div class="topbar">
+                <div class="topbar__menu">
                     
-                    <a href=""><p>CAMBIO SIN CARGO</p></a>
-        
-        
-                    <div id="bloqueusuario">
-                         <ul id="listauno">
-                             <li><a href="ingreso usuario.html">ingresar</a></li>
-                             <li>♥wishlist</li>
-                             <li>items</li>
-                         </ul>
-                    </div>
+                    <a href="" class="topbar__menu_a"><p>CAMBIO SIN CARGO</p>
+                    </a>
+                    
+                    <ul class="topbar__menu_list">
+                             <li class="menu__list--user"><a href="ingreso usuario.html">ingresar</a></li>
+                             <li class="menu__list--wishlist">♥wishlist</li>
+                             <li class="menu__list--items">items</li>
+                    </ul>
                 </div>
     
-                <div id="banner">
-                    <a href="index.html" class="banner">
+                <div class="topbar__banner">
+                    <a href="index.html" class="banner__a">
                         <img src="inspo/logos/BANNER1.jpg" >
                     </a>
                 </div>
 
-                <nav id="navegador">
+                <nav class="nav">
     
-                    <div id="barranavegacion">
+                    <div class="nav__navbar">
                         <ul>
-                            <li><a href="newin.html">new in</a></li>
-                            <li><a href="tops.html">tops</a></li>
-                            <li><a href="bottoms.html">bottoms</a></li>
-                            <li><a href="accessories.html">accessories</a></li>
+                            <li class="navbar--newin"><a href="newin.html">new in</a></li>
+                            <li class="navbar--tops"><a href="tops.html">tops</a></li>
+                            <li class="navbar--bottoms"><a href="bottoms.html">bottoms</a></li>
+                            <li class="navbar--acces"><a href="accessories.html">accessories</a></li>
+                            <li class="navbar--sercher">
+                                <form action="">
+                                    <div class="form__serch">
+                                        <input placeholder="buscar" name="q" class="input__text" maxlength="128" type="text">
+                                        <button type="submit" title="buscar" class="boton">></button>
+                                    </div>
+                                </form>
+                            </li>
                           </ul>
 
                     </div>
                 </nav>
             </div> 
         </header> 
-        <section id="parteuno">
-            <div id="coleccion">
-                <img class="fotos" src="inspo/Imma.jpg" alt="">
-                <a href="coleccion.html">
+
+        <section id="first">
+            <div class="colection">
+                <img class="colection--photo" src="inspo/Imma.jpg" alt="">
+                <a class="colection--a" href="coleccion.html">
                     <img src="inspo/banner11.jpg">
                 </a>
-                <img class="fotos" src="inspo/Pink lolita big waves Ji Fa wig YV42739.jpg" alt="">
+                <img class="colection--photo" src="inspo/Pink lolita big waves Ji Fa wig YV42739.jpg" alt="">
             </div>
 
-            <div id="eslogan">
+            <div class="slogan">
             <P>just loving this</P>
             </div>
         </section>
-        <section id="partedos">
-            <div id="lookbook-accessories">
-                <div id="lookbook">
-                    <a href="lookbook.html">
+        <hr>
+        <section id="second">
+            <div class="look_acces">
+                <div class="look_acces__lookbook">
+                    <a class="lookbook--a" href="lookbook.html">
                     <img src="inspo/logos/lookbook0.jpg">
                     </a>
                 </div>
 
-                <div id="accesories">
-                    <a href="accessories.html">
+                <div class="look_acces__accesories">
+                    <a class="accerssories--a" href="accessories.html">
                     <img src="inspo/logos/accessories0.jpg">
                     </a>
 
                 </div>
             </div>
         </section>
-        <section id="partetres">
-            <div id="videoconcept" style="display: flex; justify-content: center;" >
-                <video src="inspo/9convert.com - BLACKPINK  Lovesick Girls Concept Teaser Video_1080p.mp4"
-                    controls 
-                    loop>
+        <section id="thrid">
+            <div class="videoconcept" style="display: flex; justify-content: center;" >
+                <video class="videoconcept--vid" src="inspo/9convert.com - BLACKPINK  Lovesick Girls Concept Teaser Video_1080p.mp4"
+                    controls >
                 </video>
             </div>
-            <div id="rock">
+            <div class="sloganrock">
                 <img src="inspo/logos/banner2.jpg" >
             </div>
         </section>
-        <section id="partecuatro">
-            <div id="logossocialmedia">
-                <img id="logo1" src="inspo/logos/1.jpg">
-                <img id="logo2" src="inspo/logos/2.jpg">
-                <img id="logo3" src="inspo/logos/3.jpg">
+        <section id="fourth">
+            <div class="logsocial">
+                <img class="logsocial--logo1" src="inspo/logos/1.jpg">
+                <img class="logsocial--logo2" src="inspo/logos/2.jpg">
+                <img class="logsocial--logo3" src="inspo/logos/3.jpg">
             </div>
         </section>
         <footer>
-            <div id="piedepag">
-                <form action="">
+            <div class="footer">
+                <form action="" class="footer--form">
                     <input type="text" name="email" id="Newsletter" value="newsletter"> 
                 </form>
-                <ul id="customer">
-                    <li>-ayuda-</li>
-                    <li>como comprar-</li>
-                    <li>envio-</li>
-                    <li>segui tu pedido-</li>
-                    <li>devoluciones-</li>
-                    <li>preguntas frecuentes-</li>
-                    <li>talles y cuidado</li>
-                    <li>-locales-</li>
-                    <li>quienes somos?-</li>
-                    <li>trabaja con nostros-</li>
-                    <li>contacto-</li>
+                <ul class="footer_customerlist">
+                    <li class="footer_customerlist--help">-ayuda-</li>
+                    <li class="footer_customerlist--how">como comprar-</li>
+                    <li class="footer_customerlist--shipping">envio-</li>
+                    <li class="footer_customerlist--order">segui tu pedido-</li>
+                    <li class="footer_customerlist--return">devoluciones-</li>
+                    <li class="footer_customerlist--commonq">preguntas frecuentes-</li>
+                    <li class="footer_customerlist--sizes">talles y cuidado</li>
+                    <li class="footer_customerlist--local">-locales-</li>
+                    <li class="footer_customerlist--who">quienes somos?-</li>
+                    <li class="footer_customerlist--rrhh">trabaja con nostros-</li>
+                    <li class="footer_customerlist--contact">contacto-</li>
                 </ul>
-                <p>Justi Guiñazu WEB &copy;2020</p>
+                <p class="footer_p">Justi Guiñazu WEB &copy;2020</p>
             </div>
         </footer>
     </body>
