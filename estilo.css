@@ -1,0 +1,55 @@
+/*top bar*/
+body{
+    font-family: roboto condensed;
+}
+.topbar__menu{
+    font-size: small;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.topbar__menu_list{
+    display: inline-flex;
+    list-style: none; 
+}
+.topbar__menu_list li{
+    color: black;
+    margin: 0px 10px 0px 10px;
+}
+.menu__list--user{
+    text-decoration: none;
+    color: black;
+}
+.topbar__menu a{
+    text-decoration: none;
+}
+a p{
+    color: black;
+}
+/*banner*/
+header .topbar .topbar__banner {
+    margin: auto;
+    display: block;
+    height: auto;
+    width: 400px;
+}
+/*navegador*/
+.nav{
+    background-color: black;
+}
+.nav__navbar ul{
+    display: inline-flex;
+    align-items: center;
+    list-style: none;
+}
+.navbar__ul a{
+    margin: 0px 15px 0px 15px;
+    text-decoration: none;
+    color: #fff;
+}
+header{
+    text-transform: uppercase;
+    padding-bottom: .75em;
+}

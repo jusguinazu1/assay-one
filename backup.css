@@ -1,13 +1,7 @@
 
-body{
-    font-family: roboto condensed;
-}
+
 .menutop{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 50px;
-    margin-right: 50px;
+   
 }
 a p {
     color: black;
@@ -54,7 +48,9 @@ header #banner img {
     height: auto;
     width: 400px;
 }
-
+.navbar__ul>li{
+    color: #fff;
+}
 
 /*parte uno*/
 
