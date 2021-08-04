@@ -5,7 +5,7 @@
         
         <title>just-clothing</title>
         <style>
-            html, body {             
+           ! html, body {             
              width: 100%;
              height: 100%;
              margin: 0;
@@ -14,6 +14,8 @@
         </style>
         <meta charset="utf-8">
         <link rel="icon" href="../images.ico">
+        <link rel="stylesheet" href="carousel/owl.carousel.min.css">
+        <link rel="stylesheet" href="carousel/owl.theme.default.min.css">
         <link rel="stylesheet" href="normalize.css">
         <link rel="stylesheet" type="text/css" href="estilo.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -53,11 +55,10 @@
                         <li class="navbar__ul--li"><a href="tops.html">tops</a></li>
                         <li class="navbar__ul--li"><a href="bottoms.html">bottoms</a></li>
                         <li class="navbar__ul--li"><a href="accessories.html">accessories</a></li>
-                        <li class="navbar__ul--li">
+                        <li class="navbar__ul--li" id="buscador">
                             <form action="">
                                 <div class="form__serch">
                                     <input placeholder="buscar" name="q" class="input__text" maxlength="128" type="text">
-                                    <button type="submit" title="buscar" class="boton">></button>
                                     </div>
                                 </form>
                         </li>
@@ -68,19 +69,24 @@
         </header> 
 
         <section id="first">
-            <div class="colection">
-                <img class="colection--photo" src="inspo/Imma.jpg" alt="">
-                <a class="colection--a" href="coleccion.html">
+            <div class="owl-carousel" class="colection">
+                <div> <img class="colection--photo" src="inspo/immathree.jpg" alt=""> </div>
+                <div> <img class="colection--photo" src="inspo/immaone.jpg" alt=""> </div>
+                <div> <img class="colection--photo" src="inspo/Imma.jpg" alt=""> </div>
+                <div>                 
+                    <a class="colection--a" href="coleccion.html">
                     <img src="inspo/banner11.jpg">
-                </a>
-                <img class="colection--photo" src="inspo/Pink lolita big waves Ji Fa wig YV42739.jpg" alt="">
+                    </a> 
+                </div>
+                <div> <img class="colection--photo" src="inspo/Pink lolita big waves Ji Fa wig YV42739.jpg" alt=""> </div>
+                <div> <img class="colection--photo" src="inspo/immatwo.jpg" alt=""> </div>
+
             </div>
 
             <div class="slogan">
             <P>just loving this</P>
             </div>
         </section>
-        <hr>
         <section id="second">
             <div class="look_acces">
                 <div class="look_acces__lookbook">
@@ -135,5 +141,11 @@
                 <p class="footer_p">Justi Guiñazu WEB &copy;2020</p>
             </div>
         </footer>
+
+        <script src="carousel/jquery.min.js"></script>
+        <script src="carousel/owl.carousel.min.js"></script>
+        <script>$(document).ready(function(){
+            $(".owl-carousel").owlCarousel();
+          });</script>
     </body>
 </html>
